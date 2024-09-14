@@ -1,0 +1,158 @@
+@media screen and (max-width: 768px) {
+    :root {
+        --width: 90%;
+    }
+
+    /* Centering and responsive alignment */
+    .header-content img {
+        /* margin: auto; */
+        display: block;
+    }
+
+    .banner-section .wrapper .child-1 .hero-text {
+        font-size: 1.2rem;
+        color: #000000;
+        line-height: 1.5rem;
+        border-bottom: 3px solid #000000;
+    }
+
+    .banner-section .wrapper .child-1 .hero-text__smallText {
+        color: #000000;
+    }
+
+    .banner-section .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-section .wrapper .child-1 .batch_number {
+        background-color: #203e99;
+        padding: 6px 10px;
+        border-radius: 5px;
+        color: #000;
+        font-weight: 600px;
+        width: max-content;
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #ffff;
+        border: 1px solid #fff;
+      }
+
+    .text-content,
+    .logo-content,
+    .center-content {
+        text-align: center;
+    }
+
+    .text-content {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    
+
+    .grid-container::before {
+        display: none;
+    }
+    .programme-overview__description {
+        font-size: 0.85rem;
+        line-height: 1.25;
+    }
+    .learning-outcomes__list-item::before {
+        width: 40px;
+      }
+
+    .methodology__title, .tools__title, .learning-outcomes__title, .programme-overview__title, .programme-highlights__title,.curriculum__title, .admission-criteria__title,.faculty-slider__title, .chairperson-message__title, .alumni-videos__heading, .testimonial__heading {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .methodology__content {
+        flex-direction: column;
+    }
+
+    .methodology__buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Tools logos centering */
+    .tools__logos {
+        justify-content: center;
+    }
+
+    .tools__logo {
+        margin-bottom: 20px;
+    }
+
+    /* Programme highlights adjustments */
+    .programme-highlights__content {
+        grid-template-columns: 1fr;
+    }
+
+    .programme-highlights__item {
+        width: 100%;
+    }
+
+   
+
+    .accordion__toggle {
+        font-size: 16px;
+    }
+
+    .accordion__content {
+        font-size: 14px;
+    }
+
+    .accordion__content--container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* Admission criteria image adjustments */
+    .admission-criteria__steps-image {
+        width: 100%;
+    }
+    .chairperson-message__image-wrapper{
+        flex:1;
+    }
+    .chairperson-message__text-wrapper{
+        flex:2;
+    }
+    .chairperson-message__quote {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .faculty-slider__container {
+        width: 75%;
+    }
+    .admission-criteria__fee-text{
+        font-size: 14px;
+    }
+    .admission-criteria__fee-subtext{
+        font-size: 12px;
+    }
+    .alumni-videos__container{
+        flex-direction: column;
+    }
+    .testimonial__content--subcontainer{
+        padding: 20px 10px;
+    }
+    .testimonial__description {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .enroll-section__title, .enroll-section__deadline-text {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .enroll-section__description{
+        font-size: 14px;
+    }
+    .banner-section .child-2 .form-wrapper {
+        margin: unset;
+    }
+    .alumni-videos__item {
+        margin: auto;
+    }
+}
