@@ -384,7 +384,7 @@ header {
     text-align: justify;
   }
 
-  /* Block: programme-highlights */
+
 .programme-highlights {
     text-align: center;
     padding: 50px 0;
@@ -408,7 +408,7 @@ header {
     
   }
   
-.programme-highlights__item {
+  .programme-highlights__item {
     background: linear-gradient(to right, #e5f1fd, #f1f1f1);
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 4px 4px 10px rgba(0, 0, 0, 0.05);
@@ -417,24 +417,26 @@ header {
     padding: 0 0;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: auto;
     height: 70px;
-  }
+}
   
   .programme-highlights__icon {
-    /* position: absolute; */
-    left:0;
-    flex: 0 0 70px;
-    height: 70px;
+    position: absolute;
+    left: -5px;
+    /* top: 0; */
+    /* flex: 0 0 70px; */
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 6px solid #00234c; /* Dark blue border */
-    margin-right: 20px;
-  }
+    border: 10px solid #00234c;
+    /* margin-right: 20px; */
+}
   
   .programme-highlights__icon img {
     width: 40px; /* Adjust based on your icon size */
@@ -447,6 +449,11 @@ header {
     color: #333;
     font-weight: 500;
     text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 20px;
+    margin-left: 10px;
   }
   
   /* Adding the dark blue accent on the right side */
