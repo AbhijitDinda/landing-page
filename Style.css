@@ -14,6 +14,9 @@
   --light-font: 400;
   --width: 80%;
   --max-width: 1280px;
+  --font-header: 24px;
+  --font-medium: 14px;
+  --font-small: 12px;
 }
 
 body {
