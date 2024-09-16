@@ -679,7 +679,9 @@ header {
   border-radius: 5px;
   padding: 10px 30px;
   font-size: var(--font-medium);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
