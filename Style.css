@@ -1043,7 +1043,8 @@ header {
   border-radius: 50px;
   transition: background-color 0.3s ease;
 }
-.slider-button-container {
+.testimonial .slider-button-container.swiper-button-next, 
+.testimonial .slider-button-container.swiper-button-prev {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1064,7 +1065,7 @@ header {
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   color: white; 
   cursor: pointer;
 }
@@ -1079,6 +1080,9 @@ header {
 
 
  
-
+.testimonial .swiper-button-next:after, 
+.testimonial .swiper-button-prev:after {
+  display: none;
+}
 
 
