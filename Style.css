@@ -1031,7 +1031,17 @@ header {
   color: #ffffff;
   margin-top: 10px;
 }
-
+.enroll-section__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #213b88;
+  font-size: var(--font-medium);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
 .slider-button-container {
   position: absolute;
   top: 50%;
