@@ -138,6 +138,7 @@
     .alumni-videos__container{
         flex-direction: column;
     }
+    /* for mobile testimonial padding need to adjust as per  */
     .testimonial__content--subcontainer{
         padding: 20px 10px;
     }
