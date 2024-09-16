@@ -159,4 +159,7 @@
     .alumni-videos__item {
         margin: auto;
     }
+    .grid-container {
+        justify-items: left;
+    }
 }
