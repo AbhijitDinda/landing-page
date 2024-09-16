@@ -1032,21 +1032,42 @@ header {
   margin-top: 10px;
 }
 
-.enroll-section__button {
-  display: inline-block;
-  padding: 10px 20px;
+.slider-button-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #ffffff;
-  color: #213b88;
-  font-size: var(--font-medium);
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 50px;
-  transition: background-color 0.3s ease;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.enroll-section__button:hover {
-  background-color: #dcdcdc;
+.slider-button{
+  height: 20px;
+  width: 20px;
+  background-color: #cdcccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  cursor: pointer;
 }
+
+.slider-button-prev--left {
+  left: 0 /* Adjust left side button */
+}
+
+.slider-button-prev--right {
+  right: 0; /* Adjust right side button */
+}
+
+
+ 
 
 
 

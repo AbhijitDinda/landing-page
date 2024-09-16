@@ -483,7 +483,7 @@
     <h2 class="testimonial__heading">Learners Speak</h2>
   
     <div class="testimonia__container swiper mySwiper">
-      <div class="testimonia__container-swiper swiper-wrapper">
+      <div class="swiper-wrapper">
   
         <div class="testimonial__content--subcontainer swiper-slide">
           <div class="testimonial__content">
@@ -610,8 +610,18 @@
         </div>
   
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+
+      <div class="slider-button-container slider-button-prev--left" id="swiper-button-prev">
+        <div class="slider-button">&larr;</div>
+      </div>
+      
+      <div class="slider-button-container slider-button-prev--right" id="swiper-button-next">
+        <div class="slider-button">&rarr;</div>
+      </div>
+      
+
     </div>
   </section>
 
@@ -684,11 +694,12 @@
   var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: "#swiper-button-next",
+      prevEl: "#swiper-button-prev",
     },
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
     mousewheel: true,
     keyboard: true,
